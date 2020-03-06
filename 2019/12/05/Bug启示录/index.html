@@ -1,0 +1,162 @@
+
+<!DOCTYPE html>
+<html lang="en" class="loading">
+<head><meta name="generator" content="Hexo 3.9.0">
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge,chrome=1">
+    <meta name="viewport" content="width=device-width, minimum-scale=1.0, maximum-scale=1.0, user-scalable=no">
+    <title>Bug启示录 - zhouzhongping-blog</title>
+    <meta name="apple-mobile-web-app-capable" content="yes">
+    <meta name="apple-mobile-web-app-status-bar-style" content="black-translucent">
+    <meta name="google" content="notranslate">
+    <meta name="keywords" content="zhouzhongping,"> 
+    <meta name="description" content="2019年是和Bug相爱相杀的一年，如何减少Bug的出现呢?根据一年多的工作经验，我这里给出一些建议
+一、代码手册1.无论是JS，Java或者其他代码，尽量避免使用全局变量，这样能避免到处引用和修改,"> 
+    <meta name="author" content="John Doe"> 
+    <link rel="alternative" href="atom.xml" title="zhouzhongping-blog" type="application/atom+xml"> 
+    <link rel="icon" href="/img/favicon.ico"> 
+    <link rel="stylesheet" href="//cdn.jsdelivr.net/npm/gitalk@1/dist/gitalk.css">
+    <link rel="stylesheet" href="/css/diaspora.css">
+    <script async src="//pagead2.googlesyndication.com/pagead/js/adsbygoogle.js"></script>
+    <script>
+         (adsbygoogle = window.adsbygoogle || []).push({
+              google_ad_client: "ca-pub-8691406134231910",
+              enable_page_level_ads: true
+         });
+    </script>
+    <script async custom-element="amp-auto-ads" src="https://cdn.ampproject.org/v0/amp-auto-ads-0.1.js">
+    </script>
+</head>
+</html>
+<body class="loading">
+    <span id="config-title" style="display:none">zhouzhongping-blog</span>
+    <div id="loader"></div>
+    <div id="single">
+    <div id="top" style="display: block;">
+    <div class="bar" style="width: 0;"></div>
+    <a class="icon-home image-icon" href="javascript:;" data-url="http://yoursite.com"></a>
+    <h3 class="subtitle">Bug启示录</h3>
+    <!--
+    <div class="social">
+        <div class="like-icon">-->
+            <!--<a href="javascript:;" class="likeThis active"><span class="icon-like"></span><span class="count">76</span></a>-->
+        <!--</div>
+        <div>
+            <div class="share">
+                <a title="获取二维码" class="icon-scan" href="javascript:;"></a>
+            </div>
+            <div id="qr"></div>
+        </div>
+    </div>
+-->
+    <div class="scrollbar"></div>
+</div>
+
+    <div class="section">
+        <div class="article">
+    <div class='main'>
+        <h1 class="title">Bug启示录</h1>
+        <div class="stuff">
+            <span>十二月 05, 2019</span>
+            
+
+        </div>
+        <div class="content markdown">
+            <p>2019年是和Bug相爱相杀的一年，如何减少Bug的出现呢?根据一年多的工作经验，我这里给出一些建议</p>
+<h1 id="一、代码手册"><a href="#一、代码手册" class="headerlink" title="一、代码手册"></a>一、代码手册</h1><p>1.无论是JS，Java或者其他代码，尽量避免使用全局变量，这样能避免到处引用和修改<br>2.后端的INSERT和UPDATE应该做好数据校验，避免脏数据<br>3.代码生成的、公共的代码请慎重修改和删除，可以少量添加<br>4.当进行表关联的时候，请务必使用别名，查询条件也添加上别名<br>5.时刻注意NPE问题</p>
+<h1 id="二、单元测试"><a href="#二、单元测试" class="headerlink" title="二、单元测试"></a>二、单元测试</h1><p>我待过的公司都不进行单元测试，第一个公司的技术负责人还说过单元测试没啥卵用。但是工作到现在，我个人是不太认同的；<br>为什么要做单元测试呢？怎样进行单元测试呢，这里我有一些见解</p>
+<h2 id="原因"><a href="#原因" class="headerlink" title="原因"></a>原因</h2><p>系统，系统的功能是关联极其强大的(对于复杂的系统)，我们对系统的修改可能牵一发而动全身，但是人的记性确是有限的，会<br>忘记甚至不了解哪些地方会相互影响这就是我们应该进行单元测试的原因。</p>
+<h2 id="方法"><a href="#方法" class="headerlink" title="方法"></a>方法</h2><h4 id="1-输入和输出"><a href="#1-输入和输出" class="headerlink" title="1.输入和输出"></a>1.输入和输出</h4><p>一个程序的作用，就是接受一些输入和输出；这是最基本的，当然我们还会关注其中的时间复杂度，空间复杂度，可读性的其他<br>的一些信息。如果这个程序的输入不正确，我们应该返回一个提示，如果输入正确，我们需要保证程序不出错的运行，所以我们<br>(尤其)是前端需要保证输入的正确性，后端需要保证接受到正确的输入后有个正确的输出。</p>
+<h3 id="2-依赖检查"><a href="#2-依赖检查" class="headerlink" title="2.依赖检查"></a>2.依赖检查</h3><p>程序的成功运行，需要很多前置条件;这些前置条件是否都满足了？写程序的时候确实需要我们做好前置条件的单元测试，保证<br>前置条件都能顺利通过</p>
+<h3 id="3-数据检查"><a href="#3-数据检查" class="headerlink" title="3.数据检查"></a>3.数据检查</h3><p>一个程序的某个对象是否需要做空值判断,每次程序运行前，都可以运行下sql检查，我觉得没毛病</p>
+<h3 id="4-什么地方需要单元测试"><a href="#4-什么地方需要单元测试" class="headerlink" title="4.什么地方需要单元测试"></a>4.什么地方需要单元测试</h3><p>能进行单元测试的地方就进行单元测试，不要觉得简单或者没用</p>
+<h3 id="5-如果项目还没有单元测试，如何开始，什么时候开始"><a href="#5-如果项目还没有单元测试，如何开始，什么时候开始" class="headerlink" title="5.如果项目还没有单元测试，如何开始，什么时候开始"></a>5.如果项目还没有单元测试，如何开始，什么时候开始</h3><p>单元测试有一个优点，就是不影响业务，所以现在就开始吧，任何时间，任何地点</p>
+<h1 id="三、Less-Is-More"><a href="#三、Less-Is-More" class="headerlink" title="三、Less Is More"></a>三、Less Is More</h1><p>1.进行功能设计的时候，在满足需求的条件下，建议设计得尽量简单。而不是写特别复杂的代码<br>2.尽量将交互设计也做得简单，无论面向C端还是面向B端，最大可能的方便用户的使用</p>
+<h1 id="四、运维相关"><a href="#四、运维相关" class="headerlink" title="四、运维相关"></a>四、运维相关</h1><p>1.建议多数据源，运维的时候设置一个数据源不可用，<br>2.数据update，delete等操作一定要非常慎重，最后开启事务</p>
+<h1 id="五、架构和其他"><a href="#五、架构和其他" class="headerlink" title="五、架构和其他"></a>五、架构和其他</h1><h1 id="六，福利走一波"><a href="#六，福利走一波" class="headerlink" title="六，福利走一波"></a>六，福利走一波</h1><p><img src="http://zhouzhongping.cn/20191205200811.jpg" alt="markdown"></p>
+
+            <!--[if lt IE 9]><script>document.createElement('audio');</script><![endif]-->
+            <audio id="audio" loop="1" preload="auto" controls="controls" data-autoplay="false">
+                <source type="audio/mpeg" src="">
+            </audio>
+            
+                <ul id="audio-list" style="display:none">
+                    
+                </ul>
+            
+        </div>
+        
+
+    </div>
+    
+        <div class='side'>
+            <ol class="toc"><li class="toc-item toc-level-1"><a class="toc-link" href="#一、代码手册"><span class="toc-number">1.</span> <span class="toc-text">一、代码手册</span></a></li><li class="toc-item toc-level-1"><a class="toc-link" href="#二、单元测试"><span class="toc-number">2.</span> <span class="toc-text">二、单元测试</span></a><ol class="toc-child"><li class="toc-item toc-level-2"><a class="toc-link" href="#原因"><span class="toc-number">2.1.</span> <span class="toc-text">原因</span></a></li><li class="toc-item toc-level-2"><a class="toc-link" href="#方法"><span class="toc-number">2.2.</span> <span class="toc-text">方法</span></a><ol class="toc-child"><li class="toc-item toc-level-4"><a class="toc-link" href="#1-输入和输出"><span class="toc-number">2.2.0.1.</span> <span class="toc-text">1.输入和输出</span></a></li></ol></li><li class="toc-item toc-level-3"><a class="toc-link" href="#2-依赖检查"><span class="toc-number">2.2.1.</span> <span class="toc-text">2.依赖检查</span></a></li><li class="toc-item toc-level-3"><a class="toc-link" href="#3-数据检查"><span class="toc-number">2.2.2.</span> <span class="toc-text">3.数据检查</span></a></li><li class="toc-item toc-level-3"><a class="toc-link" href="#4-什么地方需要单元测试"><span class="toc-number">2.2.3.</span> <span class="toc-text">4.什么地方需要单元测试</span></a></li><li class="toc-item toc-level-3"><a class="toc-link" href="#5-如果项目还没有单元测试，如何开始，什么时候开始"><span class="toc-number">2.2.4.</span> <span class="toc-text">5.如果项目还没有单元测试，如何开始，什么时候开始</span></a></li></ol></li></ol></li><li class="toc-item toc-level-1"><a class="toc-link" href="#三、Less-Is-More"><span class="toc-number">3.</span> <span class="toc-text">三、Less Is More</span></a></li><li class="toc-item toc-level-1"><a class="toc-link" href="#四、运维相关"><span class="toc-number">4.</span> <span class="toc-text">四、运维相关</span></a></li><li class="toc-item toc-level-1"><a class="toc-link" href="#五、架构和其他"><span class="toc-number">5.</span> <span class="toc-text">五、架构和其他</span></a></li><li class="toc-item toc-level-1"><a class="toc-link" href="#六，福利走一波"><span class="toc-number">6.</span> <span class="toc-text">六，福利走一波</span></a></li></ol>
+        </div>
+    
+</div>
+
+
+    </div>
+</div>
+</body>
+<script src="//cdn.jsdelivr.net/npm/gitalk@1/dist/gitalk.min.js"></script>
+<script src="//lib.baomitu.com/jquery/1.8.3/jquery.min.js"></script>
+<script src="/js/plugin.js"></script>
+<script src="/js/diaspora.js"></script>
+<link rel="stylesheet" href="/photoswipe/photoswipe.css">
+<link rel="stylesheet" href="/photoswipe/default-skin/default-skin.css">
+<script src="/photoswipe/photoswipe.min.js"></script>
+<script src="/photoswipe/photoswipe-ui-default.min.js"></script>
+
+<!-- Root element of PhotoSwipe. Must have class pswp. -->
+<div class="pswp" tabindex="-1" role="dialog" aria-hidden="true">
+    <!-- Background of PhotoSwipe. 
+         It's a separate element as animating opacity is faster than rgba(). -->
+    <div class="pswp__bg"></div>
+    <!-- Slides wrapper with overflow:hidden. -->
+    <div class="pswp__scroll-wrap">
+        <!-- Container that holds slides. 
+            PhotoSwipe keeps only 3 of them in the DOM to save memory.
+            Don't modify these 3 pswp__item elements, data is added later on. -->
+        <div class="pswp__container">
+            <div class="pswp__item"></div>
+            <div class="pswp__item"></div>
+            <div class="pswp__item"></div>
+        </div>
+        <!-- Default (PhotoSwipeUI_Default) interface on top of sliding area. Can be changed. -->
+        <div class="pswp__ui pswp__ui--hidden">
+            <div class="pswp__top-bar">
+                <!--  Controls are self-explanatory. Order can be changed. -->
+                <div class="pswp__counter"></div>
+                <button class="pswp__button pswp__button--close" title="Close (Esc)"></button>
+                <button class="pswp__button pswp__button--share" title="Share"></button>
+                <button class="pswp__button pswp__button--fs" title="Toggle fullscreen"></button>
+                <button class="pswp__button pswp__button--zoom" title="Zoom in/out"></button>
+                <!-- Preloader demo http://codepen.io/dimsemenov/pen/yyBWoR -->
+                <!-- element will get class pswp__preloader--active when preloader is running -->
+                <div class="pswp__preloader">
+                    <div class="pswp__preloader__icn">
+                      <div class="pswp__preloader__cut">
+                        <div class="pswp__preloader__donut"></div>
+                      </div>
+                    </div>
+                </div>
+            </div>
+            <div class="pswp__share-modal pswp__share-modal--hidden pswp__single-tap">
+                <div class="pswp__share-tooltip"></div> 
+            </div>
+            <button class="pswp__button pswp__button--arrow--left" title="Previous (arrow left)">
+            </button>
+            <button class="pswp__button pswp__button--arrow--right" title="Next (arrow right)">
+            </button>
+            <div class="pswp__caption">
+                <div class="pswp__caption__center"></div>
+            </div>
+        </div>
+    </div>
+</div>
+
+
+
+
+</html>
