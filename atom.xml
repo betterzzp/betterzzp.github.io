@@ -1,0 +1,152 @@
+<?xml version="1.0" encoding="utf-8"?>
+<feed xmlns="http://www.w3.org/2005/Atom">
+  <title>zhouzhongping-blog</title>
+  
+  
+  <link href="/atom.xml" rel="self"/>
+  
+  <link href="http://yoursite.com/"/>
+  <updated>2020-04-08T16:15:30.241Z</updated>
+  <id>http://yoursite.com/</id>
+  
+  <author>
+    <name>John Doe</name>
+    
+  </author>
+  
+  <generator uri="https://hexo.io/">Hexo</generator>
+  
+  <entry>
+    <title>未来的方向</title>
+    <link href="http://yoursite.com/2020/04/09/%E6%9C%AA%E6%9D%A5%E7%9A%84%E6%96%B9%E5%90%91/"/>
+    <id>http://yoursite.com/2020/04/09/%E6%9C%AA%E6%9D%A5%E7%9A%84%E6%96%B9%E5%90%91/</id>
+    <published>2020-04-08T16:12:31.000Z</published>
+    <updated>2020-04-08T16:15:30.241Z</updated>
+    
+    <content type="html"><![CDATA[<h1 id="未来的方向"><a href="#未来的方向" class="headerlink" title="未来的方向"></a>未来的方向</h1><h2 id="疫情"><a href="#疫情" class="headerlink" title="疫情"></a>疫情</h2><p>受到新型冠心病毒的影响，2020年是艰难的一年，好多行业受到严重冲击，希望疫情渐渐好转，以后对医药方面的研究也加强</p><h2 id="离职"><a href="#离职" class="headerlink" title="离职"></a>离职</h2><p>到今天为止还差3个月就毕业两年了，一共呆过两家公司，第二家公司由于发展不是很好，已经很久没有按时发放工资了，也考虑到技术发展的问题，即使在疫情期间也不得不离开；这场疫情影响实在太大，也看到了公司的迷茫，希望公司发展越来越好</p><h2 id="毕业以来工作总结总结"><a href="#毕业以来工作总结总结" class="headerlink" title="毕业以来工作总结总结"></a>毕业以来工作总结总结</h2><p>###工作内容<br>毕业这两年一直在做一些功能性的东西，不研究原理，不考虑并发(虽然好多系统不会存在并发)，做些简单的增删改查和稍微复杂的增删改查</p><h3 id="收获"><a href="#收获" class="headerlink" title="收获"></a>收获</h3><p>增删改查是核心竞争力肯定是开玩笑的，但是每个程序员肯定都做过，就像每个程序员都做过”Hello World”一样，我希望我已经过了这一步了，已经可以熟练的增删改查，也可以和别人开玩笑的说”增删改查是核心竞争力”<br>同时在工作中也认识了很多同事，学习他们的一些优点，学会合作，学会处事</p><h3 id="不足"><a href="#不足" class="headerlink" title="不足"></a>不足</h3><p>项目的并发量和数据量都不算太大，平时也没有学习，业务的提升也有限</p><h2 id="离职之后的面试"><a href="#离职之后的面试" class="headerlink" title="离职之后的面试"></a>离职之后的面试</h2><p>离职之后先在昆明面试了一些公司，也拿到了一些Offer，可能由于我是昆明理工（云南不错的理工学校）毕业的,所以拿offer的公司比例不算太低(相比深圳)，有一家公司已经去上班了，但是由于业务不喜欢，所以就上了一天班就撤了</p><p>####面试造火箭，工作螺丝钉？<br>其实小公司的面试并没有造火箭，大公司的面试会造火箭一点；我想有两个方面，一方面大公司很多人应聘，所以会造火箭总比不会造火箭好；另一方面火箭造的好，螺丝钉拧得也会更牢固，因为大公司项目需要更高的并发，更高的稳定性</p><h2 id="和一个朋友交流后的感悟，面试造火箭有必要吗？"><a href="#和一个朋友交流后的感悟，面试造火箭有必要吗？" class="headerlink" title="和一个朋友交流后的感悟，面试造火箭有必要吗？"></a>和一个朋友交流后的感悟，面试造火箭有必要吗？</h2><p>一个朋友的公司去年618亏损了1500多W的钱，原因是618当天他们公司的某个服务挂了，从京东挖来的百万年薪架构师也因为这件事情离职了；这件事情让我明白了技术的重要性，所以别再说面试造火箭这种话了，程序员还是好好提升技术</p><h1 id="未来的方向-1"><a href="#未来的方向-1" class="headerlink" title="未来的方向"></a>未来的方向</h1><p>1.Java基础知识的继续深入，一些数据结构的原理和应用场景<br>2.JVM和MySQL底层的深入<br>3.分布式系统，消息中间件，Redis方面的深入，Docker和ES也应该了解了解<br>4.高并发，大数据，并发编程方向的深入<br>总之就是把自己当成架构师方向去要求，高并发来的时候我能保证系统不崩溃吗？，我能保证系统的安全性吗？，我能保证系统的可扩展能力吗？</p>]]></content>
+    
+    <summary type="html">
+    
+      
+      
+        &lt;h1 id=&quot;未来的方向&quot;&gt;&lt;a href=&quot;#未来的方向&quot; class=&quot;headerlink&quot; title=&quot;未来的方向&quot;&gt;&lt;/a&gt;未来的方向&lt;/h1&gt;&lt;h2 id=&quot;疫情&quot;&gt;&lt;a href=&quot;#疫情&quot; class=&quot;headerlink&quot; title=&quot;疫情&quot;&gt;&lt;/a&gt;疫
+      
+    
+    </summary>
+    
+    
+    
+  </entry>
+  
+  <entry>
+    <title>HashMap五问</title>
+    <link href="http://yoursite.com/2019/12/30/HashMap%E4%BA%94%E9%97%AE/"/>
+    <id>http://yoursite.com/2019/12/30/HashMap%E4%BA%94%E9%97%AE/</id>
+    <published>2019-12-30T15:26:14.000Z</published>
+    <updated>2019-12-30T15:50:32.556Z</updated>
+    
+    <content type="html"><![CDATA[<h3 id="Question-请介绍一下HasHMap这种数据结构"><a href="#Question-请介绍一下HasHMap这种数据结构" class="headerlink" title="Question  请介绍一下HasHMap这种数据结构?"></a>Question  请介绍一下HasHMap这种数据结构?</h3><p>HashMap是一种Key,Value存储的数据结构，底层是通过数组,链表和红黑树这三种数据结构实现的；</p><p>默认的初始长度是16,负载因子为0.75，具有非常高(不存在Hash冲突的情况下为1)的查找效率；</p><h3 id="Question-为什么能达到查询效率为1呢？"><a href="#Question-为什么能达到查询效率为1呢？" class="headerlink" title="Question  为什么能达到查询效率为1呢？"></a>Question  为什么能达到查询效率为1呢？</h3><p>这里有一个hash函数，hash函数能够根据Key值和length计算出key值对应得value存在数组中的index，通过</p><p>index就能获得到Key；在不存在hash冲突的情况下，数组的下标的第一个就是key对应的value；所以查询效率</p><p>为1</p><h3 id="Question-什么情况下查询效率不为1呢？"><a href="#Question-什么情况下查询效率不为1呢？" class="headerlink" title="Question  什么情况下查询效率不为1呢？"></a>Question  什么情况下查询效率不为1呢？</h3><p>当存在Hash冲突的时候,就是key的hash函数算出相同的Index时，那么就会产生Hash冲突，此时就会从该数组</p><p>的index这里，进行链表，当链表长度大于8时，就会变为红黑树；所以当产生Hash冲突的时候，查询效率就</p><p>不为1</p><h3 id="Question-能说一下负载因子吗"><a href="#Question-能说一下负载因子吗" class="headerlink" title="Question 能说一下负载因子吗"></a>Question 能说一下负载因子吗</h3><p>默认的负载因子为7.5，是hashmap数组能容纳数量与扩容的零界点。就是当数据量数组的占用率达到0.75</p><p>时候，数组就会扩容。之所以选择0.75，是为了实现空间和效率的一个平衡。空间太大，hash冲突就少，查询</p><p>效率高。空间太小，hash冲突多，查询效率低</p><h3 id="Hash的使用技巧"><a href="#Hash的使用技巧" class="headerlink" title="Hash的使用技巧"></a>Hash的使用技巧</h3><p>当处理大量数据的时候，尽量知道数据的多少，定义好HashMap的长度，这样能避免重复的index</p>]]></content>
+    
+    <summary type="html">
+    
+      
+      
+        &lt;h3 id=&quot;Question-请介绍一下HasHMap这种数据结构&quot;&gt;&lt;a href=&quot;#Question-请介绍一下HasHMap这种数据结构&quot; class=&quot;headerlink&quot; title=&quot;Question  请介绍一下HasHMap这种数据结构?&quot;&gt;&lt;/a&gt;Que
+      
+    
+    </summary>
+    
+    
+    
+  </entry>
+  
+  <entry>
+    <title>现在公司项目开发存在的一些问题</title>
+    <link href="http://yoursite.com/2019/12/17/%E7%8E%B0%E5%9C%A8%E5%85%AC%E5%8F%B8%E9%A1%B9%E7%9B%AE%E5%BC%80%E5%8F%91%E5%AD%98%E5%9C%A8%E7%9A%84%E4%B8%80%E4%BA%9B%E9%97%AE%E9%A2%98/"/>
+    <id>http://yoursite.com/2019/12/17/%E7%8E%B0%E5%9C%A8%E5%85%AC%E5%8F%B8%E9%A1%B9%E7%9B%AE%E5%BC%80%E5%8F%91%E5%AD%98%E5%9C%A8%E7%9A%84%E4%B8%80%E4%BA%9B%E9%97%AE%E9%A2%98/</id>
+    <published>2019-12-17T13:57:25.000Z</published>
+    <updated>2019-12-17T14:10:21.837Z</updated>
+    
+    <content type="html"><![CDATA[<h5 id="1-数据依赖测试"><a href="#1-数据依赖测试" class="headerlink" title="1.数据依赖测试"></a>1.数据依赖测试</h5><p>据我所知公司项目出Bug次数(生成环境)绝对不算少,而其中大概80%左右的Bug量来源于数据问题；我觉得可以通过写脚本测试来尽量避免Bug的产生；怎么写脚本呢?我们都知道代码和数据库表设计是息息相关的(这也是数据问题经常产生Bug的原因)。下面我从代码的角度给出一些意见</p><ul><li>1.你的代码成功运行的条件是啥?比如字段非空，比如记录的编码唯一；甚至是记录的ID是指定的UUID(我们系统就存在这种情况)，这些都可以作为你单元测试的素材，只是最简单测试，具体可以根据你的业务编写；比如两个查询结果必须为一个包含另一个所有的结果等。*</li></ul><h5 id="2-业务逻辑测试"><a href="#2-业务逻辑测试" class="headerlink" title="2.业务逻辑测试"></a>2.业务逻辑测试</h5><p>如果说数据依赖测试保证代码正常运行，那么我们并不能保证业务逻辑就完成成功运行，这里我们还可以进行业务逻辑测试，就想1+1=2这种测试，具体根据你的业务逻辑</p><blockquote><p>测试代码是不影响主业务逻辑的，也就是说你任何时候都能写</p></blockquote><h3 id="代码方面的问题"><a href="#代码方面的问题" class="headerlink" title="代码方面的问题"></a>代码方面的问题</h3><ul><li><p>1.现在的后台管理系统和微服务系统是完全分开的，导致实体，mapper等都两边拷贝，还挺麻烦，现在后台管理系统也前后端分离了，比较建议后台管理系统也作为微服务的一员，共用实体，mapper东西*</p></li><li><p>2.没有CodeReview情况，其实还是比较建议的，特别是对于刚入职的员工(即使是小公司)*</p></li><li><p>3.代码做权限区分，这个是比较傻的，如果说有人离职了，那接手他的代码就无奈了*</p></li><li><p>4.用Git,但是每个人的电脑上都产生一堆不能提交的问题，target，.class等等，导致提交文件变得特别无奈，还经常提交少了或者提交多了，这个问题到现在都没人去解决一下*</p></li></ul><h3 id="项目管理方面的问题"><a href="#项目管理方面的问题" class="headerlink" title="项目管理方面的问题"></a>项目管理方面的问题</h3><ul><li><p>1.需求管理有问题，后端早就叫写了，写好了，结果个把月前端才写*</p></li><li><p>2.项目存在多个(销售人员销售出产品后，需要做一些定制开发)，但是所有的代码竟然在一个分支上开发*</p></li><li><p>3.不推行分支开发，在项目上限后这个问题尤为严重*</p></li><li><p>4.提需求感觉稍微有点随意了，我觉得还是先想好，多花点时间思考非常有必要*</p></li></ul>]]></content>
+    
+    <summary type="html">
+    
+      
+      
+        &lt;h5 id=&quot;1-数据依赖测试&quot;&gt;&lt;a href=&quot;#1-数据依赖测试&quot; class=&quot;headerlink&quot; title=&quot;1.数据依赖测试&quot;&gt;&lt;/a&gt;1.数据依赖测试&lt;/h5&gt;&lt;p&gt;据我所知公司项目出Bug次数(生成环境)绝对不算少,而其中大概80%左右的Bug量来源于数据
+      
+    
+    </summary>
+    
+    
+    
+  </entry>
+  
+  <entry>
+    <title>Linux部署项目</title>
+    <link href="http://yoursite.com/2019/12/05/Linux%E9%83%A8%E7%BD%B2%E9%A1%B9%E7%9B%AE/"/>
+    <id>http://yoursite.com/2019/12/05/Linux%E9%83%A8%E7%BD%B2%E9%A1%B9%E7%9B%AE/</id>
+    <published>2019-12-05T12:49:04.000Z</published>
+    <updated>2019-12-17T14:07:21.476Z</updated>
+    
+    <content type="html"><![CDATA[<p>在上大学的时候,就希望做一个个人网站,终于在大学将要毕业的时候搭建起来了可以访问的网站。<br>现在已经毕业一年多了,已经很久没有使用过Linux了,最近公司的事情都做完了,同事的事情又有<br>点搭不上手,所以划买了华为的云服务器,自己部署了个网站。这里稍微记录下<br>(总的来说就是Windows上你怎么部署的,linux上就怎么来)</p><p>1.安装并配置全局JDK<br><a href="https://www.cnblogs.com/HiDeveloper/p/9205630.html" target="_blank" rel="noopener">https://www.cnblogs.com/HiDeveloper/p/9205630.html</a></p><p>2.安装MySQL<br><a href="https://blog.csdn.net/ntuxiaolei/article/details/81777335" target="_blank" rel="noopener">https://blog.csdn.net/ntuxiaolei/article/details/81777335</a></p><p>3.安装Nginx<br><a href="https://www.cnblogs.com/kaid/p/7640723.html" target="_blank" rel="noopener">https://www.cnblogs.com/kaid/p/7640723.html</a><br>现在还没有用到,nginx可以用来做反向代理,http服务器,还可以做负载均衡，非常有用哦</p><p>3.安装Tomcat<br><a href="https://www.cnblogs.com/HiDeveloper/p/9205687.html" target="_blank" rel="noopener">https://www.cnblogs.com/HiDeveloper/p/9205687.html</a></p>]]></content>
+    
+    <summary type="html">
+    
+      
+      
+        &lt;p&gt;在上大学的时候,就希望做一个个人网站,终于在大学将要毕业的时候搭建起来了可以访问的网站。&lt;br&gt;现在已经毕业一年多了,已经很久没有使用过Linux了,最近公司的事情都做完了,同事的事情又有&lt;br&gt;点搭不上手,所以划买了华为的云服务器,自己部署了个网站。这里稍微记录下&lt;br&gt;
+      
+    
+    </summary>
+    
+    
+    
+  </entry>
+  
+  <entry>
+    <title>Bug启示录</title>
+    <link href="http://yoursite.com/2019/12/05/Bug%E5%90%AF%E7%A4%BA%E5%BD%95/"/>
+    <id>http://yoursite.com/2019/12/05/Bug%E5%90%AF%E7%A4%BA%E5%BD%95/</id>
+    <published>2019-12-05T12:19:36.000Z</published>
+    <updated>2019-12-05T14:33:14.668Z</updated>
+    
+    <content type="html"><![CDATA[<p>2019年是和Bug相爱相杀的一年，如何减少Bug的出现呢?根据一年多的工作经验，我这里给出一些建议</p><h1 id="一、代码手册"><a href="#一、代码手册" class="headerlink" title="一、代码手册"></a>一、代码手册</h1><p>1.无论是JS，Java或者其他代码，尽量避免使用全局变量，这样能避免到处引用和修改<br>2.后端的INSERT和UPDATE应该做好数据校验，避免脏数据<br>3.代码生成的、公共的代码请慎重修改和删除，可以少量添加<br>4.当进行表关联的时候，请务必使用别名，查询条件也添加上别名<br>5.时刻注意NPE问题</p><h1 id="二、单元测试"><a href="#二、单元测试" class="headerlink" title="二、单元测试"></a>二、单元测试</h1><p>我待过的公司都不进行单元测试，第一个公司的技术负责人还说过单元测试没啥卵用。但是工作到现在，我个人是不太认同的；<br>为什么要做单元测试呢？怎样进行单元测试呢，这里我有一些见解</p><h2 id="原因"><a href="#原因" class="headerlink" title="原因"></a>原因</h2><p>系统，系统的功能是关联极其强大的(对于复杂的系统)，我们对系统的修改可能牵一发而动全身，但是人的记性确是有限的，会<br>忘记甚至不了解哪些地方会相互影响这就是我们应该进行单元测试的原因。</p><h2 id="方法"><a href="#方法" class="headerlink" title="方法"></a>方法</h2><h4 id="1-输入和输出"><a href="#1-输入和输出" class="headerlink" title="1.输入和输出"></a>1.输入和输出</h4><p>一个程序的作用，就是接受一些输入和输出；这是最基本的，当然我们还会关注其中的时间复杂度，空间复杂度，可读性的其他<br>的一些信息。如果这个程序的输入不正确，我们应该返回一个提示，如果输入正确，我们需要保证程序不出错的运行，所以我们<br>(尤其)是前端需要保证输入的正确性，后端需要保证接受到正确的输入后有个正确的输出。</p><h3 id="2-依赖检查"><a href="#2-依赖检查" class="headerlink" title="2.依赖检查"></a>2.依赖检查</h3><p>程序的成功运行，需要很多前置条件;这些前置条件是否都满足了？写程序的时候确实需要我们做好前置条件的单元测试，保证<br>前置条件都能顺利通过</p><h3 id="3-数据检查"><a href="#3-数据检查" class="headerlink" title="3.数据检查"></a>3.数据检查</h3><p>一个程序的某个对象是否需要做空值判断,每次程序运行前，都可以运行下sql检查，我觉得没毛病</p><h3 id="4-什么地方需要单元测试"><a href="#4-什么地方需要单元测试" class="headerlink" title="4.什么地方需要单元测试"></a>4.什么地方需要单元测试</h3><p>能进行单元测试的地方就进行单元测试，不要觉得简单或者没用</p><h3 id="5-如果项目还没有单元测试，如何开始，什么时候开始"><a href="#5-如果项目还没有单元测试，如何开始，什么时候开始" class="headerlink" title="5.如果项目还没有单元测试，如何开始，什么时候开始"></a>5.如果项目还没有单元测试，如何开始，什么时候开始</h3><p>单元测试有一个优点，就是不影响业务，所以现在就开始吧，任何时间，任何地点</p><h1 id="三、Less-Is-More"><a href="#三、Less-Is-More" class="headerlink" title="三、Less Is More"></a>三、Less Is More</h1><p>1.进行功能设计的时候，在满足需求的条件下，建议设计得尽量简单。而不是写特别复杂的代码<br>2.尽量将交互设计也做得简单，无论面向C端还是面向B端，最大可能的方便用户的使用</p><h1 id="四、运维相关"><a href="#四、运维相关" class="headerlink" title="四、运维相关"></a>四、运维相关</h1><p>1.建议多数据源，运维的时候设置一个数据源不可用，<br>2.数据update，delete等操作一定要非常慎重，最后开启事务</p><h1 id="五、架构和其他"><a href="#五、架构和其他" class="headerlink" title="五、架构和其他"></a>五、架构和其他</h1><h1 id="六，福利走一波"><a href="#六，福利走一波" class="headerlink" title="六，福利走一波"></a>六，福利走一波</h1><p><img src="http://zhouzhongping.cn/20191205200811.jpg" alt="markdown"></p>]]></content>
+    
+    <summary type="html">
+    
+      
+      
+        &lt;p&gt;2019年是和Bug相爱相杀的一年，如何减少Bug的出现呢?根据一年多的工作经验，我这里给出一些建议&lt;/p&gt;
+&lt;h1 id=&quot;一、代码手册&quot;&gt;&lt;a href=&quot;#一、代码手册&quot; class=&quot;headerlink&quot; title=&quot;一、代码手册&quot;&gt;&lt;/a&gt;一、代码手册&lt;/h1
+      
+    
+    </summary>
+    
+    
+    
+  </entry>
+  
+  <entry>
+    <title>阅读后台源代码的一种方式</title>
+    <link href="http://yoursite.com/2019/08/22/%E9%98%85%E8%AF%BB%E5%90%8E%E5%8F%B0%E6%BA%90%E4%BB%A3%E7%A0%81%E7%9A%84%E4%B8%80%E7%A7%8D%E6%96%B9%E5%BC%8F/"/>
+    <id>http://yoursite.com/2019/08/22/%E9%98%85%E8%AF%BB%E5%90%8E%E5%8F%B0%E6%BA%90%E4%BB%A3%E7%A0%81%E7%9A%84%E4%B8%80%E7%A7%8D%E6%96%B9%E5%BC%8F/</id>
+    <published>2019-08-22T15:21:19.000Z</published>
+    <updated>2019-12-05T14:35:16.881Z</updated>
+    
+    <content type="html"><![CDATA[<p>以前面试了一个公司被面试官说我的工作中大部分做的都是增删改查，虽然他说的是事实，毕业一年的时间里大部分做的都是增删改查的后台管理系统；<br><img src="http://zhouzhongping.cn/1ba5add2ddd64a69b3a819c3e7d4fe94.jpg" alt><br><strong>但是也不是不可以反驳，因为web开发工作中大部分的代码都是增删改查</strong></p><p>以前做后台管理系统的时候，了解系统都是通过页面，然后根据页面查找到控制器，然后了解表以及这个控制器所作的操作。<br><img src="http://zhouzhongping.cn/f4040eb940c44f55a00abe74ba85cbcd.png" alt><br>这里其实还有另外一种操作，就是将整个流程反过来<br><img src="http://zhouzhongping.cn/2bcfb8aa5c414297b7df4ac287c293d5.png" alt></p><p>这两种方法哪一种比较好呢？,我觉得根据实际情况结合使用吧，大部分人都会第一种方法，但是第二种方法不知道有没有人用！</p>]]></content>
+    
+    <summary type="html">
+    
+      
+      
+        &lt;p&gt;以前面试了一个公司被面试官说我的工作中大部分做的都是增删改查，虽然他说的是事实，毕业一年的时间里大部分做的都是增删改查的后台管理系统；&lt;br&gt;&lt;img src=&quot;http://zhouzhongping.cn/1ba5add2ddd64a69b3a819c3e7d4fe94
+      
+    
+    </summary>
+    
+    
+    
+  </entry>
+  
+</feed>
