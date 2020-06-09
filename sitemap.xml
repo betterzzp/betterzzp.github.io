@@ -2,6 +2,13 @@
 <urlset xmlns="http://www.sitemaps.org/schemas/sitemap/0.9">
   
   <url>
+    <loc>http://yoursite.com/2019/12/30/HashMap%E4%BA%94%E9%97%AE/</loc>
+    
+    <lastmod>2020-06-09T13:17:27.159Z</lastmod>
+    
+  </url>
+  
+  <url>
     <loc>http://yoursite.com/2019/12/05/Bug%E5%90%AF%E7%A4%BA%E5%BD%95/</loc>
     
     <lastmod>2020-06-04T14:40:59.091Z</lastmod>
@@ -12,13 +19,6 @@
     <loc>http://yoursite.com/2020/04/09/%E6%9C%AA%E6%9D%A5%E7%9A%84%E6%96%B9%E5%90%91/</loc>
     
     <lastmod>2020-06-04T14:37:10.246Z</lastmod>
-    
-  </url>
-  
-  <url>
-    <loc>http://yoursite.com/2019/12/30/HashMap%E4%BA%94%E9%97%AE/</loc>
-    
-    <lastmod>2019-12-30T15:50:32.556Z</lastmod>
     
   </url>
   

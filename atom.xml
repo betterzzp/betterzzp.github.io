@@ -39,19 +39,19 @@
   </entry>
   
   <entry>
-    <title>HashMap五问</title>
+    <title>HashMap</title>
     <link href="http://yoursite.com/2019/12/30/HashMap%E4%BA%94%E9%97%AE/"/>
     <id>http://yoursite.com/2019/12/30/HashMap%E4%BA%94%E9%97%AE/</id>
     <published>2019-12-30T15:26:14.000Z</published>
-    <updated>2019-12-30T15:50:32.556Z</updated>
+    <updated>2020-06-09T13:17:27.159Z</updated>
     
-    <content type="html"><![CDATA[<h3 id="Question-请介绍一下HasHMap这种数据结构"><a href="#Question-请介绍一下HasHMap这种数据结构" class="headerlink" title="Question  请介绍一下HasHMap这种数据结构?"></a>Question  请介绍一下HasHMap这种数据结构?</h3><p>HashMap是一种Key,Value存储的数据结构，底层是通过数组,链表和红黑树这三种数据结构实现的；</p><p>默认的初始长度是16,负载因子为0.75，具有非常高(不存在Hash冲突的情况下为1)的查找效率；</p><h3 id="Question-为什么能达到查询效率为1呢？"><a href="#Question-为什么能达到查询效率为1呢？" class="headerlink" title="Question  为什么能达到查询效率为1呢？"></a>Question  为什么能达到查询效率为1呢？</h3><p>这里有一个hash函数，hash函数能够根据Key值和length计算出key值对应得value存在数组中的index，通过</p><p>index就能获得到Key；在不存在hash冲突的情况下，数组的下标的第一个就是key对应的value；所以查询效率</p><p>为1</p><h3 id="Question-什么情况下查询效率不为1呢？"><a href="#Question-什么情况下查询效率不为1呢？" class="headerlink" title="Question  什么情况下查询效率不为1呢？"></a>Question  什么情况下查询效率不为1呢？</h3><p>当存在Hash冲突的时候,就是key的hash函数算出相同的Index时，那么就会产生Hash冲突，此时就会从该数组</p><p>的index这里，进行链表，当链表长度大于8时，就会变为红黑树；所以当产生Hash冲突的时候，查询效率就</p><p>不为1</p><h3 id="Question-能说一下负载因子吗"><a href="#Question-能说一下负载因子吗" class="headerlink" title="Question 能说一下负载因子吗"></a>Question 能说一下负载因子吗</h3><p>默认的负载因子为7.5，是hashmap数组能容纳数量与扩容的零界点。就是当数据量数组的占用率达到0.75</p><p>时候，数组就会扩容。之所以选择0.75，是为了实现空间和效率的一个平衡。空间太大，hash冲突就少，查询</p><p>效率高。空间太小，hash冲突多，查询效率低</p><h3 id="Hash的使用技巧"><a href="#Hash的使用技巧" class="headerlink" title="Hash的使用技巧"></a>Hash的使用技巧</h3><p>当处理大量数据的时候，尽量知道数据的多少，定义好HashMap的长度，这样能避免重复的index</p>]]></content>
+    <content type="html"><![CDATA[<h3 id="请介绍一下HasHMap这种数据结构"><a href="#请介绍一下HasHMap这种数据结构" class="headerlink" title="请介绍一下HasHMap这种数据结构?"></a>请介绍一下HasHMap这种数据结构?</h3><p>HashMap是一种Key,Value存储的数据结构，底层是通过数组,链表和红黑树这三种数据结构实现的；</p><p>默认的初始长度是16,负载因子为0.75，具有非常高(不存在Hash冲突的情况下为1)的查找效率；</p><h3 id="为什么能达到查询效率为1呢？"><a href="#为什么能达到查询效率为1呢？" class="headerlink" title="为什么能达到查询效率为1呢？"></a>为什么能达到查询效率为1呢？</h3><p>这里有一个hash函数，hash函数能够根据Key值和length计算出key值对应得value存在数组中的index，通过</p><p>index就能获得到Key；在不存在hash冲突的情况下，数组的下标的第一个就是key对应的value；所以查询效率</p><p>为1</p><h3 id="什么情况下查询效率不为1呢？"><a href="#什么情况下查询效率不为1呢？" class="headerlink" title="什么情况下查询效率不为1呢？"></a>什么情况下查询效率不为1呢？</h3><p>当存在Hash冲突的时候,就是key的hash函数算出相同的Index时，那么就会产生Hash冲突，此时就会从该数组</p><p>的index这里，进行链表，当链表长度大于8时，就会变为红黑树；所以当产生Hash冲突的时候，查询效率就</p><p>不为1</p><h3 id="能说一下负载因子吗"><a href="#能说一下负载因子吗" class="headerlink" title="能说一下负载因子吗"></a>能说一下负载因子吗</h3><p>默认的负载因子为7.5，是hashmap数组能容纳数量与扩容的零界点。就是当数据量数组的占用率达到0.75</p><p>时候，数组就会扩容。之所以选择0.75，是为了实现空间和效率的一个平衡。空间太大，hash冲突就少，查询</p><p>效率高。空间太小，hash冲突多，查询效率低</p><h3 id="HashMap是由数组，链表-红黑树组成的，那么数组的内存是如何分配的呢，大小怎么确定呢？"><a href="#HashMap是由数组，链表-红黑树组成的，那么数组的内存是如何分配的呢，大小怎么确定呢？" class="headerlink" title="HashMap是由数组，链表/红黑树组成的，那么数组的内存是如何分配的呢，大小怎么确定呢？"></a>HashMap是由数组，链表/红黑树组成的，那么数组的内存是如何分配的呢，大小怎么确定呢？</h3><p>HashMap在第一次put操作的时候会初始化数组的大小，如果对象初始化的时候指定了对象的初始化大小，则会初始化大小相符的数组;<br>如果没有指定大小，则默认长度为16</p><h3 id="HashMap的扩容过程"><a href="#HashMap的扩容过程" class="headerlink" title="HashMap的扩容过程"></a>HashMap的扩容过程</h3><p>如果没有指定数组大小，则从16-32-64这样增长，最大值为Integer.MAX;扩容的的临界点是插入的数量达到数组的长度<br>如果指定了数组大小，其实指定的不一定正确，他会找比初始化值大的最接近的值做数组大小的初始化</p><h3 id="HashMap和Hashtable的区别"><a href="#HashMap和Hashtable的区别" class="headerlink" title="HashMap和Hashtable的区别"></a>HashMap和Hashtable的区别</h3><p>Hashtable是线程安全得,HashMap不是线程安全的,HashMap允许null,Hashtable不允许为null</p><h3 id="HashMap的扩容临界点"><a href="#HashMap的扩容临界点" class="headerlink" title="HashMap的扩容临界点"></a>HashMap的扩容临界点</h3><p>tab.length<em>factory  数组长度</em>负载因子</p><h3 id="Hash的使用技巧"><a href="#Hash的使用技巧" class="headerlink" title="Hash的使用技巧"></a>Hash的使用技巧</h3><p>当处理大量数据的时候，尽量知道数据的多少，定义好HashMap的长度，这样能避免重复的index</p>]]></content>
     
     <summary type="html">
     
       
       
-        &lt;h3 id=&quot;Question-请介绍一下HasHMap这种数据结构&quot;&gt;&lt;a href=&quot;#Question-请介绍一下HasHMap这种数据结构&quot; class=&quot;headerlink&quot; title=&quot;Question  请介绍一下HasHMap这种数据结构?&quot;&gt;&lt;/a&gt;Que
+        &lt;h3 id=&quot;请介绍一下HasHMap这种数据结构&quot;&gt;&lt;a href=&quot;#请介绍一下HasHMap这种数据结构&quot; class=&quot;headerlink&quot; title=&quot;请介绍一下HasHMap这种数据结构?&quot;&gt;&lt;/a&gt;请介绍一下HasHMap这种数据结构?&lt;/h3&gt;&lt;p&gt;Hash
       
     
     </summary>
