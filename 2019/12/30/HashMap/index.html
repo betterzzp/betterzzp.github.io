@@ -13,6 +13,9 @@
 <h3 id="HashMap是由数组，链表-红黑树组成的，那么数组的内存是如何分配的呢，大小怎么确定呢？"><a href="#HashMap是由数组，链表-红黑树组成的，那么数组的内存是如何分配的呢，大小怎么确定呢？" class="headerlink" title="HashMap是由数组，链表/红黑树组成的，那么数组的内存是如何分配的呢，大小怎么确定呢？"></a>HashMap是由数组，链表/红黑树组成的，那么数组的内存是如何分配的呢，大小怎么确定呢？</h3><p>HashMap在第一次put操作的时候会初始化数组的大小，如果对象初始化的时候指定了对象的初始化大小，则会初始化大小相符的数组;<br>如果没有指定大小，则默认长度为16</p>
 <h3 id="HashMap的扩容过程"><a href="#HashMap的扩容过程" class="headerlink" title="HashMap的扩容过程"></a>HashMap的扩容过程</h3><p>如果没有指定数组大小，则从16-32-64这样增长，最大值为Integer.MAX;扩容的的临界点是插入的数量达到数组的长度<br>如果指定了数组大小，其实指定的不一定正确，他会找比初始化值大的最接近的值做数组大小的初始化</p>
 <h3 id="HashMap和Hashtable的区别"><a href="#HashMap和Hashtable的区别" class="headerlink" title="HashMap和Hashtable的区别"></a>HashMap和Hashtable的区别</h3><p>Hashtable是线程安全得,HashMap不是线程安全的,HashMap允许null,Hashtable不允许为null</p>
+<h3 id="HashMap-put过程中是如何做判断的呢"><a href="#HashMap-put过程中是如何做判断的呢" class="headerlink" title="HashMap put过程中是如何做判断的呢"></a>HashMap put过程中是如何做判断的呢</h3><p>会计算出应该处于的数组下标的位置，判断这个位置是否为null,如果为null,则放在这个位置;<br>如果不为null，则记录下数组的第一个值;<br>判断第一个值能不能类型转换为红黑树的一个节点，如果可以,则把该节点加到红黑树上;<br>如果不能转化为红黑树，则加到链表上,如果链表的长度大于等于8，就转换为二叉树;<br>如果key已经存在了，就break;</p>
+<h3 id="HashMap链表的扩容是头插法还是尾插法"><a href="#HashMap链表的扩容是头插法还是尾插法" class="headerlink" title="HashMap链表的扩容是头插法还是尾插法"></a>HashMap链表的扩容是头插法还是尾插法</h3><p>Java1.8中使用的是尾插法</p>
+<h3 id="一个很土的问题-HashMap是线程安全的吗"><a href="#一个很土的问题-HashMap是线程安全的吗" class="headerlink" title="一个很土的问题,HashMap是线程安全的吗"></a>一个很土的问题,HashMap是线程安全的吗</h3><p>HashMap不是线程安全的,<br>Put操作<br>{<br>    丢失一些key值,<br>    扩容问题(1.8以下循环链表,查询死循环:1.7先扩容，后插入;先插入，后扩容)<br>}</p>
 <h3 id="HashMap的扩容临界点"><a href="#HashMap的扩容临界点" class="headerlink" title="HashMap的扩容临界点"></a>HashMap的扩容临界点</h3><p>tab.length<em>factory  数组长度</em>负载因子</p>
 <h3 id="Hash的使用技巧"><a href="#Hash的使用技巧" class="headerlink" title="Hash的使用技巧"></a>Hash的使用技巧</h3><p>当处理大量数据的时候，尽量知道数据的多少，定义好HashMap的长度，这样能避免重复的index</p>
 </div><script src="/js/jquery.min.js"></script><script src="/js/main.js"></script></body></html>
