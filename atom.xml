@@ -6,7 +6,7 @@
   <link href="/atom.xml" rel="self"/>
   
   <link href="http://yoursite.com/"/>
-  <updated>2020-06-09T13:28:10.923Z</updated>
+  <updated>2020-06-29T14:55:50.709Z</updated>
   <id>http://yoursite.com/</id>
   
   <author>
@@ -15,6 +15,28 @@
   </author>
   
   <generator uri="https://hexo.io/">Hexo</generator>
+  
+  <entry>
+    <title>谈论一下数据库事务</title>
+    <link href="http://yoursite.com/2020/06/29/%E8%B0%88%E8%AE%BA%E4%B8%80%E4%B8%8B%E6%95%B0%E6%8D%AE%E5%BA%93%E4%BA%8B%E5%8A%A1/"/>
+    <id>http://yoursite.com/2020/06/29/%E8%B0%88%E8%AE%BA%E4%B8%80%E4%B8%8B%E6%95%B0%E6%8D%AE%E5%BA%93%E4%BA%8B%E5%8A%A1/</id>
+    <published>2020-06-29T14:47:01.000Z</published>
+    <updated>2020-06-29T14:55:50.709Z</updated>
+    
+    <content type="html"><![CDATA[<h3 id="事务的四大特性？"><a href="#事务的四大特性？" class="headerlink" title="事务的四大特性？"></a>事务的四大特性？</h3><p>原子性(要么全部成功,要么全部失败)<br>持久性(事务一旦提交,对数据库的修改是持久的)<br>隔离性(事务之间是相互隔离的)<br>统一性</p><h3 id="事务的隔离级别"><a href="#事务的隔离级别" class="headerlink" title="事务的隔离级别"></a>事务的隔离级别</h3><p>Read  Uncommited<br>Read  Commited<br>Read  ReapetableRead<br>Serilazible</p><h3 id="Mysql事务的传播行为"><a href="#Mysql事务的传播行为" class="headerlink" title="Mysql事务的传播行为"></a>Mysql事务的传播行为</h3><h3 id="为什么需要事务"><a href="#为什么需要事务" class="headerlink" title="为什么需要事务"></a>为什么需要事务</h3><p>一系列复杂的操作，需要同时成功或者同时失败！！<br>为什么会失败？？我们不应该保证系统不失败吗？？</p><p>1.系统是不稳定的，断电，断网,内存溢出，被运维踢了一脚，卡死等都可能导致操作的失败，，所以事务非常需要</p><h3 id="Spring基于注解的事务管理！！"><a href="#Spring基于注解的事务管理！！" class="headerlink" title="Spring基于注解的事务管理！！"></a>Spring基于注解的事务管理！！</h3><h3 id="HashMap是由数组，链表-红黑树组成的，那么数组的内存是如何分配的呢，大小怎么确定呢？"><a href="#HashMap是由数组，链表-红黑树组成的，那么数组的内存是如何分配的呢，大小怎么确定呢？" class="headerlink" title="HashMap是由数组，链表/红黑树组成的，那么数组的内存是如何分配的呢，大小怎么确定呢？"></a>HashMap是由数组，链表/红黑树组成的，那么数组的内存是如何分配的呢，大小怎么确定呢？</h3><p>HashMap在第一次put操作的时候会初始化数组的大小，如果对象初始化的时候指定了对象的初始化大小，则会初始化大小相符的数组;<br>如果没有指定大小，则默认长度为16</p>]]></content>
+    
+    <summary type="html">
+    
+      
+      
+        &lt;h3 id=&quot;事务的四大特性？&quot;&gt;&lt;a href=&quot;#事务的四大特性？&quot; class=&quot;headerlink&quot; title=&quot;事务的四大特性？&quot;&gt;&lt;/a&gt;事务的四大特性？&lt;/h3&gt;&lt;p&gt;原子性(要么全部成功,要么全部失败)&lt;br&gt;持久性(事务一旦提交,对数据库的修改是持久的)&lt;
+      
+    
+    </summary>
+    
+    
+    
+  </entry>
   
   <entry>
     <title>tomcat参数调优</title>
