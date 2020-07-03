@@ -6,7 +6,7 @@
   <link href="/atom.xml" rel="self"/>
   
   <link href="http://yoursite.com/"/>
-  <updated>2020-06-29T14:55:50.709Z</updated>
+  <updated>2020-07-03T22:42:38.936Z</updated>
   <id>http://yoursite.com/</id>
   
   <author>
@@ -15,6 +15,28 @@
   </author>
   
   <generator uri="https://hexo.io/">Hexo</generator>
+  
+  <entry>
+    <title>ConcurrentHashMap</title>
+    <link href="http://yoursite.com/2020/07/04/ConcurrentHashMap/"/>
+    <id>http://yoursite.com/2020/07/04/ConcurrentHashMap/</id>
+    <published>2020-07-03T22:41:01.000Z</published>
+    <updated>2020-07-03T22:42:38.936Z</updated>
+    
+    <content type="html"><![CDATA[<h3 id="ConcurrentHashMap是线程安全的吗，他是如何保证线程安全的"><a href="#ConcurrentHashMap是线程安全的吗，他是如何保证线程安全的" class="headerlink" title="ConcurrentHashMap是线程安全的吗，他是如何保证线程安全的"></a>ConcurrentHashMap是线程安全的吗，他是如何保证线程安全的</h3><p>ConcurrentHashMap是线程安全的,他主要通过分段锁和CAS来保证线程安全</p>]]></content>
+    
+    <summary type="html">
+    
+      
+      
+        &lt;h3 id=&quot;ConcurrentHashMap是线程安全的吗，他是如何保证线程安全的&quot;&gt;&lt;a href=&quot;#ConcurrentHashMap是线程安全的吗，他是如何保证线程安全的&quot; class=&quot;headerlink&quot; title=&quot;ConcurrentHashMap是线程
+      
+    
+    </summary>
+    
+    
+    
+  </entry>
   
   <entry>
     <title>谈论一下数据库事务</title>
@@ -163,7 +185,7 @@
     <link href="http://yoursite.com/2020/06/09/%E5%9E%83%E5%9C%BE%E5%9B%9E%E6%94%B6%E7%AE%97%E6%B3%95/"/>
     <id>http://yoursite.com/2020/06/09/%E5%9E%83%E5%9C%BE%E5%9B%9E%E6%94%B6%E7%AE%97%E6%B3%95/</id>
     <published>2020-06-09T13:21:12.000Z</published>
-    <updated>2020-06-29T15:23:10.158Z</updated>
+    <updated>2020-07-03T22:40:24.632Z</updated>
     
     <content type="html"><![CDATA[<h3 id="什么是可达性分析"><a href="#什么是可达性分析" class="headerlink" title="什么是可达性分析"></a>什么是可达性分析</h3><p>选定一些root对象,可达性分析,如果对象不可达,那么说明对象不会再被引用，有可能需要进行垃圾回收</p><h3 id="分代回收理论"><a href="#分代回收理论" class="headerlink" title="分代回收理论"></a>分代回收理论</h3><p>对象朝生夕灭,活得越久的对象越不容易被回收</p><h3 id="回收算法"><a href="#回收算法" class="headerlink" title="回收算法"></a>回收算法</h3><p>标记清除算法<br>问题(内存碎片化)</p><p>标记整理算法<br>(Stop the world)</p><p>标记复制算法<br>(8:1:1的配置,1表示Survire区) </p><h3 id="一个对象的分代年龄存储在对象头中"><a href="#一个对象的分代年龄存储在对象头中" class="headerlink" title="一个对象的分代年龄存储在对象头中"></a>一个对象的分代年龄存储在对象头中</h3><p>对象的锁获取状态也存在对象头中<br>一般一个对象需要被标记16次才会被垃圾回收</p><h3 id="对象分配在那个区域"><a href="#对象分配在那个区域" class="headerlink" title="对象分配在那个区域"></a>对象分配在那个区域</h3><p>一个大对象分配在老年代，其他一般先分在新生代</p>]]></content>
     
