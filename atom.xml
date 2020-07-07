@@ -155,9 +155,16 @@
     <link href="http://yoursite.com/2020/06/09/Jmeter/"/>
     <id>http://yoursite.com/2020/06/09/Jmeter/</id>
     <published>2020-06-09T13:26:28.000Z</published>
-    <updated>2020-06-09T13:26:28.200Z</updated>
+    <updated>2020-07-07T13:51:54.152Z</updated>
+    
+    <content type="html"><![CDATA[<h3 id="什么是Jmeter"><a href="#什么是Jmeter" class="headerlink" title="什么是Jmeter"></a>什么是Jmeter</h3><p>Jmeter是一个并发测试工具,我们可以使用Jmeter测试一些线程安全问题（已经掌握），<br>同时可以测试系统压力(还在学习)</p>]]></content>
     
     <summary type="html">
+    
+      
+      
+        &lt;h3 id=&quot;什么是Jmeter&quot;&gt;&lt;a href=&quot;#什么是Jmeter&quot; class=&quot;headerlink&quot; title=&quot;什么是Jmeter&quot;&gt;&lt;/a&gt;什么是Jmeter&lt;/h3&gt;&lt;p&gt;Jmeter是一个并发测试工具,我们可以使用Jmeter测试一些线程安全问题（已经掌
+      
     
     </summary>
     
